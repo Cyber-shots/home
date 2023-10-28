@@ -1,11 +1,15 @@
+
+
+
+
 html {
 
 }
 
 body { 
-
-min-width: 889px;
-width: 70%;
+    
+min-width: 888.0px;
+width: 71.0%;
 
 height: 100%;
 
@@ -14,7 +18,7 @@ height: 100%;
    
 
 
-border: 1px solid rgb(7, 7, 7);
+/* border: 1px solid rgb(7, 7, 7); */
 
    
     background: white;
@@ -69,7 +73,7 @@ div.content {
      float: right;
 
   
-    width: 85.7%;
+    width: 83.2%;
    
    height: 100%;
     
@@ -86,30 +90,31 @@ margin-left:0px;
 
 }
 div.bar {
-     margin-left: -1px;
-    width: 100%;
-    float: left;
-   border: 1px solid rgb(7, 7, 7);
+    /*  margin-left: -1px; */
+    min-width: 40.0px;
+width: 100%;
+    
+   
 }
 div.inner-bar {
     background: rgb(48, 45, 45);
     min-height: 40px;
 }
 div.sidebar {
-    margin-left: -1px;
-    width: 99.99%;
+   /* margin-left: -1px; */
+    width: 100%;
     min-height: 400px;
     height: 100%;
     float: left;
-    border: 1px solid rgb(7, 7, 7);
+    /* border: 1px solid rgb(7, 7, 7); */
     background: rgb(48, 45, 45);
 }
 div.inner-sidebar {
     
    float: left;
 
-    max-width: 14.2%;
-     width: 14.2%;
+    
+     width: 16.6%;
     background: rgb(48, 45, 45);
   /*  min-height: 500px; */
     
@@ -119,11 +124,11 @@ div.footer {
 
  /*   position:absolute;   */
 bottom: 0px;
-    border: 1px solid rgb(7, 7, 7);
+   /*  border: 1px solid rgb(7, 7, 7); */
 
     
 
-  min-width: 889px;
+  min-width: 888px;
   width: 100%;
   margin-left: auto;
     margin-right: auto;
@@ -155,8 +160,8 @@ display: flex;
 }
 .menu1 li {
     border: 1px solid rgb(7, 7, 7);
- min-width: 125px;
-    width: 34%;
+ min-width: 13.2857143%;
+ width: 34%;
 list-style: none;
 background: #7d7e7d; /* Old browsers */
 background: -moz-linear-gradient(top, #7d7e7d 19%, #0e0e0e 68%); /* FF3.6-15 */
